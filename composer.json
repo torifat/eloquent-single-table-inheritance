@@ -1,0 +1,27 @@
+{
+    "name": "torifat/eloquent-single-table-inheritance",
+    "description": "Single Table Inheritance (STI) implemented as a Trait for Laravel Eloquent models",
+    "keywords": ["laravel", "eloquent", "sti", "single-table-inheritance", "model"],
+    "homepage": "https://github.com/torifat/eloquent-single-table-inheritance",
+    "type": "library",
+    "require": {
+        "php": "~5.4",
+        "illuminate/database": "~4.2"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rifat Nabi",
+            "email": "to.rifat@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Rifat\\EloquentSingleTableInheritance\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
