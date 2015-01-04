@@ -6,7 +6,7 @@
     "type": "library",
     "require": {
         "php": "~5.4",
-        "illuminate/database": "~4.2"
+        "illuminate/database": "5.0.*@dev"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
