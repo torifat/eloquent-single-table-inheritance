@@ -9,7 +9,8 @@
         "illuminate/database": "5.0.*@dev"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.1"
+        "phpunit/phpunit": "~4.4",
+        "mockery/mockery": "0.9.*@dev"
     },
     "license": "MIT",
     "authors": [

@@ -75,7 +75,7 @@ trait SingleTableInheritanceTrait
      * @param  array $attributes
      * @return static
      */
-    public function newFromBuilder(array $attributes = array())
+    public function newFromBuilder($attributes = array())
     {
         $class = $attributes->{static::$stiClassNameField};
         $instance = new $class;
